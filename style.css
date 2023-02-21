@@ -1,3 +1,6 @@
 body{
-    
+    width: 100vmin;
+    margin: 0;
+    padding: 20px 10px;
+    box-sizing: border-box;
 }
