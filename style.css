@@ -5,7 +5,8 @@ body{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-
+    position: relative;
+    height: 100vh;
 }
 body > header{
     padding: 0 40px;
@@ -17,12 +18,14 @@ body > header > img{
 }
 
 body > main{
+    height: auto;
     position: relative;
     max-width: inherit;
     display: flex;
     flex-direction: column;
     text-align: center;
     color: rgb(239, 115, 228);
+    background-color: rgba(255, 160, 122, 0.101)
 }
 body > main > img{
     width: 100%;
@@ -31,6 +34,7 @@ body > main > section > header {
     font-size: 4rem;
     text-transform: uppercase;
     letter-spacing: 10px;
+    margin: 4rem 0 1rem 0;
     
 }
 span{
@@ -39,4 +43,20 @@ span{
 
 #coming{
     color: rgb(119, 150, 153);
+}
+.email-box{
+    border: 1px solid #ccc;
+    padding: 10px 10px;
+    width: 90%;
+    margin: 30px auto;
+    text-align: start;
+    border-radius: 20px;
+}
+.email-box input{
+    border: none;
+    background: transparent
+}
+main > section{
+    padding: 0 30px;
+    position: relative;
 }
